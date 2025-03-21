@@ -39,7 +39,7 @@ int main() {
     PIBperCapita = (PIB / populacao);
 
     // Informações Carta 2
-    printf("Digite a letra do estado2(A-H):\n");
+    printf("Digite a letra do estado2(A-H): \n");
     scanf("%c", &estado2);  // Usando &estado2 para pegar o endereço
 
     printf("Codigo2(letra do estado seguinte de um numero de 01a04):\n");
