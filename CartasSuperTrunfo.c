@@ -23,7 +23,7 @@ int main() {
 
     // Carta 1
     printf("Digite a letra do estado(A-H): \n");
-    scanf("%c", &estado);  // Usando &estado para pegar o endereço
+    scanf(" %c", &estado);  // Usando &estado para pegar o endereço
 
     printf("Codigo(letra do estado seguinte de um numero de 01a04):\n");
     scanf("%s", codigo);
@@ -48,7 +48,7 @@ int main() {
 
     // Informações Carta 2
     printf("Digite a letra do estado2(A-H): \n");
-    scanf("%c", &estado2);  // Usando &estado2 para pegar o endereço
+    scanf(" %c", &estado2);  // Usando &estado2 para pegar o endereço
 
     printf("Codigo2(letra do estado seguinte de um numero de 01a04):\n");
     scanf("%s", codigo2);
@@ -93,7 +93,7 @@ int main() {
 
     printf("PIB per Capita:%.2f\n", PIBperCapita);
 
-    
+
     printf("\nCarta 2!\n");
 
     printf("Estado:%c\n", estado2);
